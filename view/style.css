@@ -344,3 +344,19 @@ figure.effect:hover p {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
+
+#frame {
+    width: 800px;
+    height: 520px;
+    border: none;
+    -moz-transform: scale(0.2);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.2);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.2);
+    -webkit-transform-origin: 0 0;
+}
+
+ul {
+  text-align: justify;
+}
