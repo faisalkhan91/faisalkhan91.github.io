@@ -1892,6 +1892,29 @@
 
 <hr />
 
+ <div align="center" class="container">
+  <form class="gform" method="POST" data-email="faisalkhan91@gmail.com" action="https://script.google.com/macros/s/AKfycbwYPsTDLQxlbinrkn0_EbDugBFjjt6sq3mg-7Wp8du1qWbNQnI/exec">
+
+    <label for="fname">Your Name</label><br />
+    <input type="text" id="fname" name="Name" placeholder="e.g: John Smith"><br />
+
+    <label for="lname">Your Email</label><br />
+    <input type="text" id="lname" name="Email" placeholder="john.smith@xyz.com"><br />
+
+    <label for="subject">Your Message</label><br />
+    <textarea id="subject" name="Message" placeholder="Write something.." style="height:200px"></textarea>
+	<br />
+    <input type="submit" value="Submit">
+
+	<div style="display:none" class="thankyou_message">
+	<!-- You can customize the thankyou message by editing the code below -->
+	<h2><font color="#7fb0ff">Message submitted successfully.</font></h2>
+	</div>
+  </form>
+</div> 
+
+<hr />
+
 <div class="row">
 	<div class="col-md-6">
 		<ul class="no-bullets">
@@ -1967,6 +1990,7 @@
 			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		  })();
 		</script>
+		<script data-cfasync="false" type="text/javascript" src="view/js/form-submission-handler.js"></script>
 	</body>
 
 <!-- Mirrored from www.pascalvangemert.nl/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 May 2019 14:41:21 GMT -->
